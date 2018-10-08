@@ -1,0 +1,30 @@
+<!DOCTYPE-HTML>
+<html id="VueJs">
+<head>
+  <meta charset="utf-8">
+  <title>Web</title>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+</head>
+<body>
+  <div class="text-center">
+
+    <div class="offset-sm-5 col-sm-2 border border-dark mt-3 mb-5">
+      <h4 id="state" style="color: black;">{{info}}</h4>
+    </div>
+    <div class="mb-5">
+      <button type="button" id="PlayBtn" class="btn btn-success"> <i class="fas fa-play"></i> </button>
+      <button type="button" id="PauseBtn" class="btn btn-warning"> <i class="fas fa-pause"></i> </button>
+      <button type="button" id="StopBtn" class="btn btn-danger"> <i class="fas fa-stop"></i> </button>
+    </div>
+
+    <p id="Msg" style="color: black;">{{timer}}</p>
+  </div>
+</body>
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/JS.js"></script>
+</html>
