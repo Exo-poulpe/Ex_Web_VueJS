@@ -9,7 +9,7 @@ var timer_on = 0;
 
 $("p").hide();
 
-
+VueJs vue = new VueJs();
 
 var msg = new Vue({
 el: '#Msg',
